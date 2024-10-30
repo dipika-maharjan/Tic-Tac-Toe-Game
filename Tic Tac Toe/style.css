@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ECC8AE;
+    text-align: center;
+}
+
+.container{
+    height: 70vh; /*vh = viewport height*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin; /*vmin = viewport minimum*/
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap; /*if there's no space then comes in next line*/
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem; /*make border curve*/
+    border: none;
+    font-size: 10vmin;
+    background-color: azure;
+    color: black;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #211B10;
+    color: #fff;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #211B10;
+    color: #fff;
+
+}
+
+#msg{
+    color:azure;
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4vmin;
+
+    
+}
+
+.hide{
+    display: none;
+}
+
+.O{
+    color: blue;
+}
+
+.X{
+    color: green;
+}
